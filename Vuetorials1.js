@@ -12,7 +12,7 @@
 // let y = 15
 // console.log(y)
 
-// // x = 20 You can't change variable that has been declared with 'const' but you can if it has been declared with 'let' like below 'y'
+// // x = 20 // You can't change variable that has been declared with 'const' but you can if it has been declared with 'let' like below 'y'
 // y = 21
 // console.log(x)
 
@@ -122,12 +122,12 @@
 // const channel = {
 //     firstName: "Subscribe ",
 //     lastName:"to my channel!!",
-//     saySubscribe() {
-//         return this.firstName + this.lastName
+//     saySubscribe(name) {
+//         return "Hello, " + name + this.firstName + this.lastName
 //     }
 // }
 
-// console.log(channel.saySubscribe())
+// console.log(channel.saySubscribe("Programmer. "))
 
 
 
@@ -170,6 +170,6 @@
 //     console.log(colours[i])
 // }
 
-// for (colour of colours) {
+// for (colour of colours) {  // Colour of colours not Colour 'in' colours like python
 //     console.log(colour)
 // }
